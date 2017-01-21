@@ -19,3 +19,13 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+//
+
+import Vue from "vue"
+
+let app = new Vue({
+  el: "#app",
+  data: {
+    message: "This is working"
+  }
+})
