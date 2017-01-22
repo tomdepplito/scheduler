@@ -21,4 +21,5 @@ import "phoenix_html"
 // import socket from "./socket"
 //
 
-import app from "./components/calendar"
+import eventForm from "./components/eventForm"
+import calendar from "./components/calendar"
